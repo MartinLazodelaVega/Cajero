@@ -1,0 +1,282 @@
+/* Color de fondo todas la páginas */
+body{ 
+    background-color: rgb(0, 100, 199);
+}
+
+/* Formato de cajero */
+
+.containertext-center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+
+}
+
+.banco{
+    height: 200px;
+     
+ }
+
+.col-1{
+    width: auto;
+}
+
+.row2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+    
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 50px;
+
+}
+
+.tarjetas{
+   height: 200px;
+    
+}
+
+.tarjetas:hover {
+    transform: scale(1.2);
+}
+
+.row3{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+
+}
+
+.col3{
+    font-size: 30px;
+}
+
+.Users{
+    background-color: rgb(220, 226, 233);
+    border-color: transparent;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+.Users:hover {
+    transform: scale(1.2);
+}
+
+/* Formato de Usiarios */
+.containertext-center2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+
+.row1-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+
+}
+
+.imagcandado{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+
+.imagcandado img{
+    height: 100px;
+}
+
+.row2-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.UsersSelector{
+    background-color: rgb(220, 226, 233);
+    border-color: transparent;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+.UsersSelector:hover {
+    transform: scale(1.2);
+}
+
+/* FORMATO CUENTAS */
+
+.todo{
+    width: 100%;
+}
+
+.tituloCuenta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: stretch;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: aliceblue;
+    height: 90px;
+
+}
+
+.consulta{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 120px;
+
+}
+
+.saldoshow{
+    display: flex;
+}
+
+.botonesTransacc{
+    background-color: rgb(220, 226, 233);
+    border-color: transparent;
+    height: 28px;
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.botonesTransacc:hover {
+    transform: scale(1.05);
+}
+
+.transacciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+.transaccionesint{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 33.3333%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+.inputDepRet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.central{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 33.3333%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 275px;
+    width: 100%;
+
+}
+
+.imagesint{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 275px;
+    width: 333.3333%;
+}
+
+.imagesint img{
+    display: flex;
+    height: 150px;
+}
+
+.central{
+    display: flex;
+    justify-content: flex-end;
+}

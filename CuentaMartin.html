@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta Martin</title>
+    <link rel="stylesheet" href="styleCajero.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3635/3635995.png">
+</head>
+
+<body>
+    <div class="todo">
+
+        <div class="tituloCuenta">
+            <div>Cuenta de Martin</div>
+        </div>
+
+
+        <!-- SALDO INICIAL -->
+        <div class="consulta" id="SalMar">
+            <label for="">Consulta tu saldo inicial en cuenta</label>
+            <div class="saldoshow">
+                <div>
+                    $
+                </div>
+                <div>
+                    <label id="SaldoMar">XXXX</label>
+                </div>
+
+            </div>
+            <div>
+                <input class="botonesTransacc" type="button" value="Consulta tu saldo" onclick="consultarSaldoMart()" />
+            </div>
+        </div>
+        <div class="images">
+
+            <div class="imagesint">
+                <img src="atm.png" alt="">
+            </div>
+
+            <div class="imagesint"></div>
+
+            <div class="imagesint"><img src="atm (1).png" alt=""></div>
+
+        </div>
+
+        <div class="transacciones">
+
+            <!-- DEPÓSTO -->
+            <div class="transaccionesint">
+
+                <div>
+                    Cantidad a depositar
+                </div>
+
+
+                <div class="inputDepRet">
+                    <input id="DepMar" type="number" />
+                    <input class="botonesTransacc" type="button" value="Depositar" onclick="DepositoMar()" />
+                </div>
+
+                <div id="depoMar">
+                    <label for="">Saldo actual en cuenta: $</label>
+                    <label id="ResDepMar">XXX</label>
+                </div>
+
+            </div>
+
+            <div class="central">
+                <!-- ESPACIO -->
+                <div> <button class="botonesTransacc" onclick="location.href='BienvenidaCajero.html'">Recresa al
+                        inicio</button></div>
+            </div>
+
+
+            <!-- RETIRO -->
+            <div class="transaccionesint">
+
+                <div>
+                    Cantidad a retirar
+                </div>
+
+                <div class="inputDepRet">
+                    <input id="RetiroMar" type="number" />
+                    <input class="botonesTransacc" type="button" value="Retirar" onclick="RetiroMar()" />
+
+                </div>
+
+                <div id="retiroMar">
+                    <label for="">Saldo actual en cuenta: $</label>
+                    <label id="ResRetMar">XXX</label>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <script src="./mainCajero.js"></script>
+
+</body>
+
+</html>
